@@ -3,8 +3,8 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #ffffff; /* Light background color */
-  color: #333333; /* Dark text color */
+  background-color: #ffffff; 
+  color: #333333;
   font-size: 16px;
   line-height: 1.6;
 }

@@ -4,18 +4,19 @@
   align-items: center;
   padding: 10px;
   margin: 10px;
-  background-color: #3498db; /* Updated background color to a shade of blue */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Shadow remains the same */
-  color: #ffffff; /* Changed text color to white */
-  font-size: 28px; /* Font size remains the same */
+  background-color: #3498db;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+  font-size: 28px;
   font-weight: bold;
   height: 80px;
   text-transform: uppercase;
   border-radius: 10px;
-  /* Adding gradient background for a more dynamic look */
-  background-image: linear-gradient(
-    to right,
-    #3498db,
-    #8e44ad
-  ); /* Gradient from blue to purple */
+  background-image: linear-gradient(to right, #3498db, #8e44ad);
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    height: 130px;
+  }
 }

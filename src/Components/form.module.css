@@ -1,4 +1,3 @@
-/* Style the todo form container */
 .todoform {
   max-width: 500px;
   margin: 20px auto;
@@ -12,9 +11,7 @@
   justify-content: center;
 }
 
-/* Style the todo input field */
 .todoinput {
-  /* flex: 1;  */
   padding: 12px;
 
   width: 280px;
@@ -29,7 +26,6 @@
   border-color: #007bff;
 }
 
-/* Style the todo button */
 .todobutton {
   padding: 12px 20px;
   border: none;
@@ -46,4 +42,21 @@
   background-color: #0056b3;
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 600px) {
+  .todoform {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .todoinput {
+    margin-right: 0;
+    width: 90%;
+    margin-bottom: 10px;
+  }
+
+  .todobutton {
+    width: 100%;
+  }
 }
